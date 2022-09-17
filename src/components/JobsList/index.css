@@ -1,0 +1,104 @@
+* {
+  font-family: 'Roboto';
+}
+
+.job-item {
+  list-style: none;
+  margin-bottom: 20px;
+  background-color: #202020;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  margin-top: 13px;
+}
+
+.info-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-section {
+  display: flex;
+  align-items: center;
+}
+
+.rating-section {
+  display: flex;
+  align-items: center;
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #cbd5e1;
+}
+
+.company-logo {
+  width: 65px;
+  height: 65px;
+  margin-right: 20px;
+}
+
+.job-rating {
+  margin-top: 9.5px;
+  font-size: 20px;
+  color: #cbd5e1;
+  margin-left: 12px;
+}
+
+.star {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.place {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #cbd5e1;
+}
+
+.place-icon {
+  font-size: 20px;
+  margin-right: 6px;
+  color: #cbd5e1;
+}
+
+.description h1 {
+  font-size: 24px;
+  color: #cbd5e1;
+}
+.description p {
+  font-size: 18px;
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
+
+.lpa {
+  font-size: 16px;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .description h1 {
+    font-size: 18px;
+  }
+
+  .description p {
+    font-size: 15px;
+  }
+}
+
+.link-items {
+  text-decoration: none;
+}
