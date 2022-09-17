@@ -131,17 +131,19 @@
   margin-bottom: 30px;
 }
 
-.no-jobs img {
+.no-jobs-img {
   width: 350px;
 }
 
-.no-jobs h1 {
+.no-jobs-heading {
   font-size: 25px;
+  color: #f8fafc;
 }
 
-.no-jobs p {
+.no-jobs-msg {
   font-size: 14px;
   margin-top: 0;
+  color: #f8fafc;
 }
 
 @media screen and (min-width: 768px) {
